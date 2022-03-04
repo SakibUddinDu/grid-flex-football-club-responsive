@@ -99,6 +99,9 @@
   }
 }
 @media (max-width: 35em) {
+  .header__info {
+    align-items: flex-start;
+  }
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
