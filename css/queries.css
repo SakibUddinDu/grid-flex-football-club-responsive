@@ -74,7 +74,7 @@
     font-weight: bold;
     font-size: 4.4rem;
     line-height: 7rem;
-    width: 45rem;
+    width: 36rem;
   }
   .player img {
     width: 24em;
@@ -109,7 +109,7 @@
     font-weight: bold;
     font-size: 3.4rem;
     line-height: 6rem;
-    width: 35gitrem;
+    width: 30rem;
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
