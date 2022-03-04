@@ -67,6 +67,15 @@
   .header__info {
     flex-direction: column;
   }
+  .heading-primary {
+    font-weight: 400;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.4rem;
+    line-height: 7rem;
+    width: 45rem;
+  }
   .player img {
     width: 24em;
     height: 20rem;
