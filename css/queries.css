@@ -102,6 +102,15 @@
   .header__info {
     align-items: flex-start;
   }
+  .heading-primary {
+    font-weight: 400;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 6rem;
+    width: 35gitrem;
+  }
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
