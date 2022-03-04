@@ -1,8 +1,8 @@
-/* @media (max-width: 125em) {
+@media (max-width: 125em) {
   .header__info {
     max-width: 100rem;
   }
-} */
+}
 @media (max-width: 95em) {
   .players .player {
     /* border: 3px solid #000; */
@@ -10,8 +10,8 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
   }
   .player img {
-    width: 18em;
-    height: 14rem;
+    width: 30em;
+    height: 24rem;
   }
   .highlights .half-width {
     padding: 1.5rem;
@@ -93,7 +93,7 @@
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
-  .header__info {
+  .highlights__header {
     flex-direction: column;
   }
   .highlights .half-width {
