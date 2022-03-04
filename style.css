@@ -1,0 +1,82 @@
+/* =============
+     navbar section
+=============== */
+.header {
+  background-color: #2d25a0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  padding-top: 3rem;
+}
+.nav__items {
+  list-style: none;
+  display: flex;
+  color: #ffffff;
+  /* background-color: blueviolet; */
+}
+.nav__items li {
+  font-size: 1.6rem;
+  padding-right: 5rem;
+  display: inline-block;
+}
+.nav__login__button a {
+  width: 12.3rem;
+  height: 4.4rem;
+  background: #e02c6d;
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* =============
+   Header Info   section
+=============== */
+.header__info {
+  max-width: 130rem;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 100%;
+}
+.heading-primary {
+  font-weight: 700;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 8rem;
+  /* margin-bottom: 3.2rem; */
+  width: 25rem;
+}
+
+.half-width a {
+  width: 16.8rem;
+  height: 4.4rem;
+  background: #e02c6d;
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* =============
+   Header Info   section
+=============== */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.player img {
+  width: 40rem;
+  height: 30rem;
+}

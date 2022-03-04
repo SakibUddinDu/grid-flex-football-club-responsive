@@ -1,0 +1,119 @@
+/* @media (max-width: 125em) {
+  .header__info {
+    max-width: 100rem;
+  }
+} */
+@media (max-width: 95em) {
+  .players .player {
+    /* border: 3px solid #000; */
+    padding: 1.6rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+  .player img {
+    width: 18em;
+    height: 14rem;
+  }
+  .highlights .half-width {
+    padding: 1.5rem;
+  }
+  .heading-secondary {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 6rem;
+    /* margin-bottom: 3.2rem; */
+  }
+  .top-players-main img {
+    width: 22rem;
+    height: 24rem;
+  }
+  .gallery__content {
+    width: 32rem;
+  }
+}
+@media (max-width: 56em) {
+  .nav__items {
+    display: none;
+  }
+  .heading-primary {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    /* margin-bottom: 3.2rem; */
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player img {
+    width: 30em;
+    height: 24rem;
+  }
+  .top-players-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-players-main img {
+    width: 30rem;
+    height: 24rem;
+  }
+  .gallery-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 42em) {
+  .header__info {
+    flex-direction: column;
+  }
+  .player img {
+    width: 24em;
+    height: 20rem;
+  }
+  .heading-secondary {
+    font-weight: 500;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 5rem;
+    /* margin-bottom: 3.2rem; */
+  }
+
+  .top-players-main img {
+    width: 22rem;
+    height: 24rem;
+  }
+
+  .top-players p {
+    width: 2.5rem;
+  }
+}
+@media (max-width: 35em) {
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header__info {
+    flex-direction: column;
+  }
+  .highlights .half-width {
+    padding: 0;
+  }
+  .top-players-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery-items {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  }
+  #footer img {
+    width: 25rem;
+    height: 12rem;
+  }
+  #footer .icons i {
+    font-size: 1.2rem;
+    background: rgba(29, 28, 28, 0.26);
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
